@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+
+# Data directories
+user_data/
+user_ratings/
+output/
+backup/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Keep directory structure but ignore contents
+!user_data/.gitkeep
+!user_ratings/.gitkeep
+!output/.gitkeep
+!backup/.gitkeep
+
+# Secrets
+secrets/
+info.txt
+.streamlit/secrets.toml
+
+# UV/project files (Streamlit Community Cloud should use requirements.txt only)
+uv.lock
+pyproject.toml
+
+# Documentation
+CLAUDE.md
+UV_SETUP.md
+notes_for_joss.txt
+joss_submission_notes.md
+GDRIVE_INTEGRATION.md
+GDRIVE_SETUP_INSTRUCTIONS.md
+GSHEETS_ARCHITECTURE.md
+
+# Claude
+.claude/
+
+# Large data files — never commit the data/ directory
+data/statsbomb_event_data.duckdb
+data/video-sets-old/
+data/video-sets-next-up/
